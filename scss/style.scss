@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// Variables
+$mainBgColor : rgb(252, 25, 25);
+$mainTextColor : white;
+$mainHoverColor : cyan;
+
+header{
+    background-color: $mainBgColor;
+    color: $mainTextColor;
+    height: 56px;
+    width: 100%;
+    h1{
+        text-align: center;
+        padding: 10px 0px;
+    }
+    &:hover{
+        background-color: $mainHoverColor;
+    }
+}
